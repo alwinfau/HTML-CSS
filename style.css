@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Helvetica Neue";
+}
+
+.container {
+  background: #000;
+  width: 100%;
+  height: 100%;
+
+  .navbar {
+    background: #000;
+    padding: 20px 80px;
+    border-bottom: solid 1px #222831;
+    .row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .brand {
+        padding: 15px;
+        border-radius: 5px;
+        border: solid 0.6px #fff;
+        box-shadow: -10px 10px 40px rgba(255, 255, 255, 0.4);
+        background-color: #000;
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+      }
+
+      .nav-item ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+        a {
+          text-decoration: none;
+        }
+      }
+
+      .account ul li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+        text-decoration: none;
+        color: #fff;
+      }
+
+      .account ul li .login {
+        text-decoration: none;
+        padding: 10px 30px;
+        border-radius: 8px;
+        color: #000;
+        background-color: #eeedeb;
+        &:hover {
+          background-color: #b4b4b8;
+        }
+      }
+    }
+  }
+}
